@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
-import numpy as qq
+import numpy as np
 
 # Inicializa o modelo YOLOv8 (pode ser yolov8n, yolov8s, etc.)
 model = YOLO("yolov8n.pt")  # Baixa automaticamente se não existir
